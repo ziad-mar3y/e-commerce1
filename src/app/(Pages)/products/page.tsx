@@ -5,7 +5,7 @@ import { Product } from "@/interfaces";
 import { ProductCard } from "@/components/products/ProductsCard";
 import { LoadingSpinner } from "@/components/shared/LoadingSpiner";
 import { Button } from "@/components/ui/button";
-import { Search, Filter, Grid, List } from "lucide-react";
+import {  Grid, List } from "lucide-react";
 import { ProductsResponse } from "@/types";
 import { apiServices } from "@/services/api";
 

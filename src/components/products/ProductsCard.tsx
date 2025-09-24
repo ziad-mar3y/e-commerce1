@@ -4,12 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/interfaces";
 import { Button } from "@/components/ui/button";
-import { Star, ShoppingCart, Heart } from "lucide-react";
+import { ShoppingCart, Heart } from "lucide-react";
 import { renderStars } from "@/helpers/rating";
 import { formatPrice } from "@/helpers/currency";
 import AddToCartButon from "./addToCartButon";
 import { useContext, useState } from "react";
-import { apiServices } from "@/services/api";
 import { cartContext } from "@/Context/CartContext";
 
 // using this interface here

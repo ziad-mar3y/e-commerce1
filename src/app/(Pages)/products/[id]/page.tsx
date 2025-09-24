@@ -6,7 +6,7 @@ import { useParams } from "next/navigation";
 import { Product } from "@/interfaces";
 import { Button } from "@/components/ui/button";
 import { LoadingSpinner } from "@/components/shared/LoadingSpiner";
-import { ShoppingCart, Heart, Truck, Shield, RotateCcw, Loader2 } from "lucide-react";
+import {  Heart, Truck, Shield, RotateCcw } from "lucide-react";
 import Link from "next/link";
 import { renderStars } from "@/helpers/rating";
 import { SingleProductResponse } from "@/types";

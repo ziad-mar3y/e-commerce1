@@ -1,17 +1,14 @@
 'use client'
-import { Button } from '@/components';
 import { Category } from '@/interfaces';
 import { apiServices } from '@/services/api';
 import { CategoriesResponse } from '@/types';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 
 
 export default function categories() {
   const [categores, setCategores] = useState<Category[]>()
-  // const {id} =useParams()
 
   async function getaLLCategories() {
 

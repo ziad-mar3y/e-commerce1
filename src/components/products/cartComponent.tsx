@@ -5,7 +5,6 @@ import React, { useState } from 'react'
 import { Button } from '../ui'
 import { Loader2, Trash2 } from 'lucide-react'
 import { CartProduct, InnerCartProduct } from '@/interfaces'
-import { useDispatch, useSelector } from 'react-redux'
 
 // const {count} = useSelector((state:any)=>state.counter)
 

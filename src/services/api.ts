@@ -79,7 +79,7 @@ class ApiServices {
         }).then((res) => res.json())
     }
 
-    async checkout(cartId: string) {
+    async checkout(cartId: string):Promise<any> {
         return await fetch(this.#baseUrl + "api/v1/orders/checkout-session/" + cartId + "?url=http://localhost:3000", {
             body: JSON.stringify({
                 "shippingAddress": {
@@ -93,7 +93,7 @@ class ApiServices {
         }).then((res)=>res.json())
     }
 
-    async  login(email:string , password:string) {
+    async  login(email:string , password:string):Promise<any> {
         return await fetch(this.#baseUrl + "api/v1/auth/signin",{
             body:JSON.stringify({
                 email,

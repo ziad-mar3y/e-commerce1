@@ -29,7 +29,9 @@ export default function brands() {
               key={brand._id}
               className="flex items-center justify-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition"
             >
-              <img
+              <Image
+              width={500}
+              height={500}
                 src={brand.image}
                 alt={brand.name}
                 className="h-12 object-contain grayscale hover:grayscale-0 transition duration-300"
